@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="local">
+    <output-path>$PROJECT_DIR$/out/artifacts/local</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="webstore" />
+        </element>
+        <element id="directory" name="jsp">
+          <element id="dir-copy" path="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="webstore/web/Web" />
+    </root>
+  </artifact>
+</component>
